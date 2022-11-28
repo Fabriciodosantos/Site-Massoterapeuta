@@ -1,0 +1,49 @@
+html {
+    font-family: 'Montserrat', sans-serif;
+font-family: 'Open Sans', sans-serif;
+}
+
+.cabecalho {
+    background: #D3D3D3;
+}
+
+.caixa {
+    width: 940px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.logo-cabecalho {
+    width: 25%;
+    padding: 2.5em 0 2.5em 1.5em;
+}
+
+nav {
+    position: absolute;
+    right: 0;
+    top: 105px;
+}
+
+nav ul {
+    padding-right: 1.5em;
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 0.5em;
+}
+
+nav a {
+    color: #000;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 500ms;
+    font-size: 22px
+    
+}
+
+nav a:hover {
+    color: #FF1493;
+    text-decoration: underline;
+}
